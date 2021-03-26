@@ -3,9 +3,7 @@
 ```
 Ini adalah project untuk tugas Frontend Webdev Ristek
 untuk menjalankan pada komputer lokal cukup melakukan
-```
 npm install lalu npm run serve pada folder vue app
-```
 fitur-fitur yang ada adalah fitur search, fitur like, bookmark dan detail movie
 ```
 ## Project setup
