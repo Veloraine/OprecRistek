@@ -9,14 +9,14 @@
             <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#modal-header-component" @click="setData($store.state.likes, 'Liked')">
               <span class="fa fa-heart p-1"></span>
               <!-- Counter - Alerts -->
-              <span class="badge rounded-pill bg-danger badge-counter">{{$store.state.likes.length}}</span>
+              <span class="badge rounded-pill bg-danger badge-counter">{{$store.state.likes ? $store.state.likes.length : 0}}</span>
             </a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#modal-header-component" @click="setData($store.state.bookmarks, 'Bookmarked')">
               <span class="fa fa-bookmark p-1"></span>
               <!-- Counter - Alerts -->
-              <span class="badge rounded-pill bg-danger badge-counter">{{$store.state.bookmarks.length}}</span>
+              <span class="badge rounded-pill bg-danger badge-counter">{{$store.state.bookmarks ? $store.state.bookmarks.length : 0}}</span>
             </a>
           </li>
         </ul>
